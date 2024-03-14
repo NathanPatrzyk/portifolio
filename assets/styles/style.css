@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../images/background.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+header h1,
+header p {
+    margin: 0;
+    padding: 0;
+    color: #1e3a8a;
+}
+header p {
+    color: #020617;
+}
+.projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 160px);
+    justify-content: center;
+    gap: 24px;
+}
+.projetos a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.projeto.lista-de-tarefas {
+    background-image: url(../images/lista-de-tarefas.jpg);
+}
+.projeto.parallax {
+    background-image: url(../images/parallax.jpg);
+}
+.projeto.massas-chasko {
+    background-image: url(../images/massas-chasko.jpg);
+}
+.projeto.notas {
+    background-image: url(../images/notes.jpg);
+}
+.projeto.trilha-do-aprendizado {
+    background-image: url(../images/trilha-do-aprendizado.jpg);
+}
+.projeto.irati {
+    background-image: url(../images/irati.jpg);
+}
+.projeto.vanguardas {
+    background-image: url(../images/vanguardas.jpg);
+}
+.projeto {
+    background-color: gray;
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    border-radius: 4px;
+    border: 4px solid transparent;
+}
+.projeto:hover {
+    border: 4px solid #1e3a8a;
+}
+.projeto .nome-projeto {
+    background-color: #020617;
+    opacity: 0.8;
+    padding: 8px;
+    width: 100%;
+}
+.projeto .nome-projeto p {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.projeto .nome-projeto p span {
+    font-size: 12px;
+}
+.links{
+    padding-top: 48px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
