@@ -36,37 +36,37 @@ header p {
 }
 .projeto.lista-de-tarefas {
     background-image: url(../images/lista-de-tarefas.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .projeto.parallax {
     background-image: url(../images/parallax.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .projeto.massas-chasko {
     background-image: url(../images/massas-chasko.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .projeto.notas {
     background-image: url(../images/notes.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .projeto.trilha-do-aprendizado {
     background-image: url(../images/trilha-do-aprendizado.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .projeto.irati {
     background-image: url(../images/irati.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .projeto.vanguardas {
     background-image: url(../images/vanguardas.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .projeto {
